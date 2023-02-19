@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>the answer</h2>
+  <div class="card p-3 my-3">
+    <p><%= @question %></p>
+    <p>-you</p>
+  </div>
+  <div class="card p-3">
+    <p><%= @answer %></p>
+    <p>-your coach</p>
+  </div>
+  <%= link_to "ask another question", ask_path %>
+</div>
